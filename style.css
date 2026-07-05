@@ -1,0 +1,85 @@
+* {
+  font-family: "Inter";
+  margin: 0px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.flex-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  width: 700px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 8%);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.profile-container {
+  width: 300px;
+  background-color: hsl(0, 0%, 12%);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-container p {
+  text-align: center;
+}
+
+#profile-name {
+  font-size: 25px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 8px;
+}
+
+#address {
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 20px;
+}
+
+.job-info {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+}
+
+.social-link {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-link:hover {
+  background-color: hsl(0, 0%, 30%);
+}
+
+#instagram {
+  margin-bottom: 0px;
+}
