@@ -1,10 +1,10 @@
 * {
   font-family: "Inter";
-  margin: 0px;
+  margin: 0em;
 }
 
 p {
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .flex-container {
@@ -25,7 +25,7 @@ p {
 }
 
 .profile-container {
-  width: 300px;
+  width: 270px;
   background-color: hsl(0, 0%, 12%);
   padding: 30px;
   border-radius: 10px;
@@ -48,14 +48,14 @@ p {
   text-align: center;
 }
 
-#profile-name {
-  font-size: 20px;
+.profile-name {
+  font-size: 1.5rem;
   font-weight: 400;
   color: hsl(0, 0%, 100%);
   margin-bottom: 8px;
 }
 
-#address {
+.address {
   font-weight: 600;
   color: hsl(75, 94%, 57%);
   margin-bottom: 20px;
@@ -81,5 +81,5 @@ p {
 }
 
 #instagram {
-  margin-bottom: 0px;
+  margin-bottom: 0em;
 }
