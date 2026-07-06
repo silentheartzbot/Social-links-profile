@@ -67,7 +67,6 @@ p {
 }
 
 .social-link {
-  color: hsl(0, 0%, 100%);
   font-weight: 700;
   background-color: hsl(0, 0%, 20%);
   margin-bottom: 10px;
@@ -80,6 +79,11 @@ p {
   background-color: hsl(0, 0%, 30%);
 }
 
-#instagram {
+#socials {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.instagram {
   margin-bottom: 0em;
 }
